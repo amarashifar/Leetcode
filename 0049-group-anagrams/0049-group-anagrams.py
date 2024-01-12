@@ -7,4 +7,5 @@ class Solution:
                 result[temp].append(word)
             else: 
                 result[temp] = [word]
+
         return list(result.values())
